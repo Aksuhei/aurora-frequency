@@ -774,6 +774,7 @@ strong {
   line-height: normal;
   margin-right: 10px;
   margin-bottom: 10px;
+  color: black;
 }
 
 .pricing-tag {
@@ -806,6 +807,8 @@ strong {
 .pricing-thumb .link-fx-1:hover {
   color: var(--link-hover-color);
 }
+
+.pricing-thumb p { color: black !important; }
 
 
 /*---------------------------------------
@@ -933,6 +936,7 @@ strong {
 .social-icon-link span:hover::before {
   animation: spinAround 2s linear infinite;
 }
+
 
 @keyframes spinAround {
   from {
